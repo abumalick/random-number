@@ -9,7 +9,7 @@ module.exports = {
         start_url: '/',
         background_color: '#6496f6',
         theme_color: '#000696',
-        display: 'minimal-ui',
+        display: 'standalone',
         icon: 'src/images/logo.png',
       },
     },
