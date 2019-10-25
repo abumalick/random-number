@@ -1,11 +1,11 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
+import {jsx} from 'theme-ui';
 import useForm from 'react-hook-form';
 import 'normalize.css';
-import { useState } from 'react';
+import {useState} from 'react';
 
 const IndexPage = () => {
-  const { register, handleSubmit } = useForm();
+  const {register, handleSubmit} = useForm();
   const [currentNumber, setCurrentNumber] = useState(null);
   const onSubmit = (data) => {
     const min = parseInt(data.minimum, 10);
