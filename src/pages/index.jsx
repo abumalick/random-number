@@ -58,7 +58,30 @@ const IndexPage = () => {
               marginTop: '1rem',
             }}
           >
-            <button type="submit">Donne un nouveau nombre</button>
+            <button
+              type="submit"
+              sx={{
+                color: '#fff !important',
+                textDecoration: 'none',
+                background: '#ed3330',
+                padding: 20,
+                borderRadius: 5,
+                display: 'inline-block',
+                border: 'none',
+                transition: 'all 0.4s ease 0s',
+                cursor: 'pointer',
+                '&:hover': {
+                  background: '#434343',
+                  letterSpacing: 1,
+                  WebkitBoxShadow: '0px 5px 40px -10px rgba(0,0,0,0.57)',
+                  MozBoxShadow: '0px 5px 40px -10px rgba(0,0,0,0.57)',
+                  boxShadow: '5px 40px -10px rgba(0,0,0,0.57)',
+                  transition: 'all 0.4s ease 0s',
+                },
+              }}
+            >
+              Donne un nouveau nombre
+            </button>
           </div>
         </form>
       </div>
